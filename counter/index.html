@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+</head>
+<style>
+    body{
+        background-color: black;
+    }
+    .container{
+       
+        text-align: center;
+        margin: auto;
+        align-content: center;
+        padding: 202px;
+    }
+    #asap{
+        color:white;
+        font-size: 120px;
+        padding-top: 10px;
+
+    }
+    .tag{
+        color:white;
+        font-size: 80px;
+        font-style: italic;
+    }
+    .btn{
+        background-color: blanchedalmond;
+        border: solid  black ;
+        border-radius: 8px;
+        padding: 5px;
+        font-size:15px;
+        width:95px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .btn:hover{
+    }
+    .decrease:hover{
+        color:rgb(175, 25, 25);
+        background-color: black;
+        border: solid blanchedalmond;
+
+
+    }
+    .reset:hover{
+        color:white;
+        background-color: black;
+        border: solid blanchedalmond;
+
+    }
+    .increase:hover{
+        color:rgb(27, 141, 46);
+        background-color: black;
+        border: solid blanchedalmond;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1 class="tag">
+            Counter
+        </h1>
+        <span id="asap">0</span>
+        <div class="bts">
+            <button class="btn decrease">Decrease</button>
+            <button class="btn reset">Reset</button>
+            <button class="btn increase">Increase</button>
+        </div>
+    </div>
+    <script src="counter.js"></script>
+</body>
+</html>
