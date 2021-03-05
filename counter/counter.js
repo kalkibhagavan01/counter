@@ -1,5 +1,5 @@
 let count=0;
-const span=document.querySelectorAll("#asap");
+const span=document.querySelector("#asap");
 const btns=document.querySelectorAll(".btn");
 btns.forEach(function(btn){
     btn.addEventListener('click',function(k){
